@@ -44,7 +44,7 @@ export default Vue.extend<Data, Methods, Computed, Props>({
     onInput(newVal: string): void {
 
       // 補完が効かない
-      // this.getAuthToken
+      this.getAuthToken // string
 
       this.$emit('input', newVal)
     }

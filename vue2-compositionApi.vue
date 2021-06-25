@@ -33,7 +33,7 @@ export default defineComponent({
     const onInput = (newVal: string): void => {
 
       // 補完が効く
-      // this.getAuthToken
+      getAuthToken.value
 
       emit('input', newVal)
     }
